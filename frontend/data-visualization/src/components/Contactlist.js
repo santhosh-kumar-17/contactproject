@@ -2,10 +2,9 @@ import React from "react";
 import Contactcard from "./Contactcard";
 
 const Contactlist= (props)=>{
-    console.log(props)
-    const renderContactList = props.contacts.map((contacts)=>{
+    const renderContactList = props.contacts.map((contact)=>{
         return(
-            <Contactcard contacts={contacts} />
+            <Contactcard contact={contact} />
         )
     })
 

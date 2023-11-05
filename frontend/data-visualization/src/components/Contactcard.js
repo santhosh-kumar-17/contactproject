@@ -2,13 +2,13 @@ import React from "react";
 import Auth from "../images/Auth.png";
 
 const Contactcard = (props)=>{
-    const {id,name,email} = props.contacts;
+    const {id,name,email} = props.contact;
     return(
         <div className="item">
-            <img className="ui avatar image" src={Auth} alt="images" />
+            <img className="ui avatar image" src={Auth} alt="images" /> 
                 <div className="content">
                     <div className="header">
-                        <div>
+                        <div> 
                             {name} 
                         </div>
                         <div>{email}</div>
